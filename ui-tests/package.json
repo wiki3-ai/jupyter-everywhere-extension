@@ -1,6 +1,6 @@
 {
   "name": "jupytereverywhere-ui-tests",
-  "version": "1.1.5dev1",
+  "version": "1.1.5-rc.0",
   "description": "Jupyter Everywhere Integration Tests",
   "private": true,
   "scripts": {
