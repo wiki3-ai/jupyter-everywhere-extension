@@ -42,10 +42,10 @@ export async function handleNotebookUpload(file: File): Promise<void> {
     const lang = detectNotebookLanguage(parsed);
     console.log(`Detected notebook language: ${lang}`);
     if (!lang) {
-      await showErrorMessage(
-        'Please upload a valid notebook',
-        'Only Python and R notebooks are supported.'
-      );
+      // await showErrorMessage(
+      //   'Please upload a valid notebook',
+      //   'Only Python and R notebooks are supported.'
+      // );
       console.warn('Unsupported notebook language:', parsed);
       return;
     }

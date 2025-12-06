@@ -68,6 +68,11 @@ function LandingPage(): JSX.Element {
               <p>Create R Notebook</p>
               <img src={rLogo} alt="R logo" />
             </a>
+
+            <a href="lab/index.html?kernel=ai-sdk-chat" className="je-card">
+              <p>Create AI SDK Chat Notebook</p>
+              <img src={rLogo} alt="R logo" />
+            </a>
           </div>
           <a href="#" className="je-upload" onClick={handleUploadClick}>
             Upload a Notebook
