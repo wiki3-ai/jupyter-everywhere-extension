@@ -2,26 +2,29 @@ import { NotebookPanel } from '@jupyterlab/notebook';
 
 export const KERNEL_URL_TO_NAME: Record<string, string> = {
   python: 'python',
-  r: 'xr'
+  r: 'xr',
+  'ai-sdk-chat': 'ai-sdk-chat'
 };
 
 export const KERNEL_NAME_TO_URL: Record<string, string> = {
   python: 'python',
   xpython: 'python',
-  xr: 'r'
+  xr: 'r',
+  'ai-sdk-chat': 'ai-sdk-chat'
 };
 
 export const KERNEL_DISPLAY_NAMES: Record<string, string> = {
   python: 'Python',
   xpython: 'Python',
-  xr: 'R'
+  xr: 'R',
+  'ai-sdk-chat': 'AI SDK Chat'
 };
 
 /**
  * List of kernels that will appear in the kernel switcher dropdown,
  * i.e., for which we have an available factory.
  */
-export const ACTIVE_KERNELS: readonly string[] = ['python', 'xr'];
+export const ACTIVE_KERNELS: readonly string[] = ['python', 'xr', 'ai-sdk-chat'];
 
 /**
  * Switch the notebook's kernel if it differs from the desired one.

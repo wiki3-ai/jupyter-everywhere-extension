@@ -1,0 +1,3 @@
+[submodule "ai-sdk-chat-kernel"]
+	path = ai-sdk-chat-kernel
+	url = https://github.com/wiki3-ai/ai-sdk-chat-kernel.git
