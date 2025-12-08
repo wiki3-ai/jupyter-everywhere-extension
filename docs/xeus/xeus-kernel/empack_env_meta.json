@@ -502,6 +502,22 @@
       "subdir": "emscripten-wasm32"
     },
     {
+      "name": "r-isoband",
+      "version": "0.3.0",
+      "build": "h59e44ba_0",
+      "filename_stem": "r-isoband-0.3.0-h59e44ba_0",
+      "filename": "r-isoband-0.3.0-h59e44ba_0.tar.gz",
+      "channel": "https://repo.prefix.dev/emscripten-forge-dev",
+      "depends": [
+        "r-base 4.5.1",
+        "r-cli",
+        "r-rlang",
+        "r-cpp11",
+        "emscripten-abi >=3.1.73,<3.1.74.0a0"
+      ],
+      "subdir": "emscripten-wasm32"
+    },
+    {
       "name": "r-mosaiccore",
       "version": "0.9.5",
       "build": "r45hc72bb7e_1",
@@ -548,19 +564,6 @@
         "r-magrittr",
         "r-rlang",
         "r-vctrs",
-        "emscripten-abi >=3.1.73,<3.1.74.0a0"
-      ],
-      "subdir": "emscripten-wasm32"
-    },
-    {
-      "name": "r-isoband",
-      "version": "0.2.7",
-      "build": "h59e44ba_1",
-      "filename_stem": "r-isoband-0.2.7-h59e44ba_1",
-      "filename": "r-isoband-0.2.7-h59e44ba_1.tar.gz",
-      "channel": "https://repo.prefix.dev/emscripten-forge-dev",
-      "depends": [
-        "r-base 4.5.1",
         "emscripten-abi >=3.1.73,<3.1.74.0a0"
       ],
       "subdir": "emscripten-wasm32"
