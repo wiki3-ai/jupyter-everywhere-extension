@@ -9,6 +9,7 @@ import jupyterEverywhereText from '../style/icons/landing/jupytereverywhere-text
 
 import pythonLogo from '../style/icons/landing/python.svg';
 import rLogo from '../style/icons/landing/r.svg';
+import aiSdkChatLogo from '../style/icons/landing/ai-sdk-chat.svg';
 
 import scrolldownArrow from '../style/icons/landing/scrolldown-arrow.svg';
 
@@ -71,7 +72,7 @@ function LandingPage(): JSX.Element {
 
             <a href="lab/index.html?kernel=ai-sdk-chat" className="je-card">
               <p>Create AI SDK Chat Notebook</p>
-              <img src={rLogo} alt="R logo" />
+              <img src={aiSdkChatLogo} alt="AI SDK Chat logo" />
             </a>
           </div>
           <a href="#" className="je-upload" onClick={handleUploadClick}>

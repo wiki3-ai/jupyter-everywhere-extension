@@ -19,7 +19,7 @@
         "JUPYTER_PORT": "8888",
         "JUPYTERLITE_PORT": "8000"
         // "RESTARTABLE": "yes"
-    }
-    // "postCreateCommand": "mamba install -y yarn nodejs nodeenv && git submodule update --init --recursive && pip install -e .",
+    },
+    "postCreateCommand": "mamba install -y micromamba patch yarn nodejs nodeenv && git submodule update --init --recursive && pip install -e .",
     // "postStartCommand": "cd files && jupyter lab"
 }
