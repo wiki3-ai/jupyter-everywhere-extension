@@ -9,10 +9,9 @@ pip install -e "."
 jupyter lab build --minimize=False
 
 pip install -r lite/requirements.txt
-jlpm build:all
-
 # Link your development version of the extension with JupyterLab
 jupyter labextension develop . --overwrite
+jlpm build:all
 
 python -m http.server --directory dist 8000
 

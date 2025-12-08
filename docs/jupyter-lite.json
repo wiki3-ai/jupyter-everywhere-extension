@@ -1,55 +1,10 @@
 {
   "jupyter-config-data": {
-    "appName": "Jupyter Everywhere",
+    "appName": "JupyterLite",
     "appUrl": "./lab",
     "appVersion": "0.7.0",
     "baseUrl": "./",
-    "contentsStorageDrivers": [
-      "memoryStorageDriver"
-    ],
-    "contentsStorageName": "JupyterEverywhere Storage",
     "defaultKernelName": "python",
-    "disabledExtensions": [
-      "@jupyterlab/extensionmanager-extension",
-      "@jupyterlab/apputils-extension:announcements",
-      "@jupyterlab/apputils-extension:state",
-      "@jupyterlab/debugger-extension",
-      "@jupyterlab/application-extension:property-inspector",
-      "@jupyterlab/apputils-extension:sessionDialogs",
-      "@jupyterlab/launcher",
-      "@jupyterlab/statusbar-extension",
-      "@jupyterlab/notebook-extension:kernel-status",
-      "@jupyterlab/apputils-extension:running-sessions-status",
-      "@jupyterlab/apputils-extension:kernel-status",
-      "@jupyterlab/running-extension:sidebar",
-      "@jupyterlab/notebook-extension:toc",
-      "@jupyterlab/toc-extension:registry",
-      "@jupyterlab/toc-extension:tracker",
-      "@jupyterlab/help-extension:jupyter-forum",
-      "@jupyterlab/lsp-extension",
-      "@jupyterlab/notebook-extension:language-server",
-      "@jupyterlab/fileeditor-extension:language-server",
-      "@jupyterlite/application-extension:lsp-connection-manager",
-      "@jupyterlab/apputils-extension:splash",
-      "@jupyterlab/celltags-extension",
-      "@jupyterlab/pluginmanager-extension",
-      "@jupyterlab/fileeditor-extension",
-      "@jupyterlab/tooltip-extension:files",
-      "@jupyterlab/filebrowser-extension",
-      "@jupyterlab/notebook-extension:open-with-no-kernel",
-      "@jupyterlab/toc-extension",
-      "@jupyterlab/notebook-extension:factory",
-      "@jupyterlab/workspaces-extension",
-      "@jupyterlab/console-extension",
-      "@jupyterlab/tooltip-extension:consoles",
-      "@jupyterlab/inspector-extension:consoles",
-      "@jupyterlab/debugger-extension:consoles",
-      "@jupyterlite/application-extension:about",
-      "@jupyterlite/application-extension:logo",
-      "@jupyterlite/application-extension:share-file"
-    ],
-    "enableMemoryStorage": true,
-    "exposeAppInBrowser": true,
     "faviconUrl": "./lab/favicon.ico",
     "federated_extensions": [
       {
@@ -76,7 +31,7 @@
       },
       {
         "extension": "./extension",
-        "load": "static/remoteEntry.b0cf6e9f30bbdb51a0c2.js",
+        "load": "static/remoteEntry.1ea3d6178a954798a703.js",
         "name": "jupytereverywhere",
         "style": "./style"
       },
@@ -469,73 +424,7 @@
           "./extensions/@jupyterlite/pyodide-kernel-extension/static/pypi/all.json?sha256=783d01f64a330ecbbd82318ba2fde8842bc8eece502b821b8c0f57cacdde5cdc"
         ]
       }
-    },
-    "mode": "single-document",
-    "settingsOverrides": {
-      "@jupyterlab/application-extension:context-menu": {
-        "disabled": true
-      },
-      "@jupyterlab/application-extension:shell": {
-        "startMode": "single"
-      },
-      "@jupyterlab/mainmenu-extension:plugin": {
-        "menus": [
-          {
-            "disabled": true,
-            "id": "jp-mainmenu-file"
-          },
-          {
-            "disabled": true,
-            "id": "jp-mainmenu-edit"
-          },
-          {
-            "disabled": true,
-            "id": "jp-mainmenu-view"
-          },
-          {
-            "disabled": true,
-            "id": "jp-mainmenu-run"
-          },
-          {
-            "disabled": true,
-            "id": "jp-mainmenu-kernel"
-          },
-          {
-            "disabled": true,
-            "id": "jp-mainmenu-tabs"
-          },
-          {
-            "disabled": true,
-            "id": "jp-mainmenu-settings"
-          },
-          {
-            "disabled": true,
-            "id": "jp-mainmenu-help"
-          }
-        ]
-      },
-      "@jupyterlab/notebook-extension:tracker": {
-        "autoStartDefaultKernel": true,
-        "codeCellConfig": {
-          "lineNumbers": false,
-          "lineWrap": false,
-          "placeholder": "This is a code cell. Add code here."
-        },
-        "markdownCellConfig": {
-          "lineNumbers": false,
-          "matchBrackets": false,
-          "placeholder": "This is a text cell. Add text here."
-        },
-        "rawCellConfig": {
-          "lineNumbers": false,
-          "matchBrackets": false,
-          "placeholder": "This is a raw cell. Add text here."
-        },
-        "windowingMode": "none"
-      }
-    },
-    "settingsStorageName": "JupyterEverywhere Storage",
-    "showLoadingIndicator": true
+    }
   },
   "jupyter-lite-schema-version": 0
 }
