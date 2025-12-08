@@ -33,7 +33,6 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-build/
 develop-eggs/
 dist/
 downloads/
@@ -127,3 +126,7 @@ dmypy.json
 
 # Yarn cache
 .yarn/
+
+# Don't ignore anythings in the docs/ folder (we need all the build artifacts)
+!docs/
+!docs/**
